@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Travel photos</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+    <header>
+        <div class="topHeaderRow">
+            <div class="container-fluid">
+                <div>
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-user-alt"></i> Profile</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-star"></i> Favorites</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end topHeaderRow -->
+
+
+        <nav class="navbar navbar-expand-md bg-azul sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Share Your Travels</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon">   
+                        <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+                    </span>
+                </button>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Browse
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Countries</a></li>
+                                <li><a class="dropdown-item" href="#">Images</a></li>
+                                <li><a class="dropdown-item" href="#">Posts</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+
+                    <form class="d-flex">
+                        <div>
+                            <input type="text" placeholder="Search">
+                        </div>
+                        <button class="btn btn-primary btn-sm" type="submit">Submit</button>
+                    </form>
+                </div>
+
+
+
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- Page Content -->
+    <main class="container-fluid">
+        <div class="row">
+            <aside class="sidenav col-md-2">
+                <div class="lateral">
+                    <div class="lateraltitle">Continents</div>
+                    <ul class="list-inline" style="border-color: #272e78; border-style: solid; border-top: 0px; border-width: 1px;">
+                        <li><a href="#">Africa</a></li>
+                        <li><a href="#">Asia</a></li>
+                        <li><a href="#">Europe</a></li>
+                        <li><a href="#">North America</a></li>
+                        <li><a href="#">South America</a></li>
+                    </ul>
+                </div>
+
+                <div class="lateral">
+                    <div class="lateraltitle">Popular</div>
+                    <ul class="list-inline" style="border-color: #272e78; border-style: solid; border-top: 0px; border-width: 1px;">
+                        <li><a href="#">Canada</a></li>
+                        <li><a href="#">France</a></li>
+                        <li><a href="#">Italy</a></li>
+                        <li><a href="#">Germany</a></li>
+                        <li><a href="#">Ghana</a></li>
+                        <li><a href="#">Greece</a></li>
+                        <li><a href="#">Hungary</a></li>
+                        <li><a href="#">Spain</a></li>
+                        <li><a href="#">United States</a></li>
+                        <li><a href="#">United Kingdom</a></li>
+                    </ul>
+                </div>
+
+            </aside>  
+            <div class="row col-md-10">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img src="images/8711645510.jpg" alt="Temple of Hephaistos">
+                            <p>Located on the western perimeter of Agora in Athens. Built in 460-415 BCE, it is the best
+                                preserved temple of antiquity. </p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <h2>Temple of Hephaistos</h2>
+
+                            <div class="card">
+                                <div>
+                                    <ul class="list-inline">
+                                        <li class="card-text">By: <a href="#">Ellie Sullivan</a></li>
+                                        <li class="card-text">Country: <a href="#">Greece</a></li>
+                                        <li class="card-text">City: <a href="#">Athens</a></li>
+                                        <li class="card-text">Taken on: August 8, 2017</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="btn-group">
+                                    <button type="button" class="btn btn-light" style="border: solid #dcdcdc 1px;"><i class="fas fa-heart"></i></button>
+                                    <button type="button" class="btn btn-light" style="border: solid #dcdcdc 1px;"><i class="fas fa-download"></i></button>
+                                    <button type="button" class="btn btn-light" style="border: solid #dcdcdc 1px;"><i class="fas fa-print"></i></button>
+                                    <button type="button" class="btn btn-light" style="border: solid #dcdcdc 1px;"><i class="fas fa-comment"></i></button>
+                            </div>
+
+                            <h4>Tags</h4>
+                            <div class="card">
+                                <div id="tags">
+                                    <span class="badge badge-primary">ancient</span>
+                                    <span class="badge badge-primary">garden</span>
+                                    <span class="badge badge-primary">hill</span>
+                                    <span class="badge badge-primary">ruins</span>
+                                    <span class="badge badge-primary">sunshine</span>
+                                    <span class="badge badge-primary">temple</span>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+            </div>  
+                <!-- Related Photos -->
+                <div class="container row" id="relatedphotos">
+                    <div class="col-md-12">
+                        <h3>Related Photos</h3>
+                    </div>
+
+                    <div class="col-md-3 justify-content-center" align= "center" style="border: solid #cdcdcd 1px;">
+                        <div >
+                            <a href="#">
+                                <img src="images/related/8710320515.jpg" alt="">
+                            </a>
+                            <div>
+                                <h6>Ekklisia Agii Isidori</h6>
+                                <button type="button" class="btn btn-primary btn-sm"><i class="	fas fa-eye"></i> View</button>
+                                <button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-heart"></i> Favorite</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 justify-content-center" align= "center" style="border: solid #cdcdcd 1px;">
+                        <div >
+                            <a href="#">
+                                <img src="images/related/8710513053.jpg" alt="">
+                            </a>
+                            <div>
+                                <h6>Theatre of Dionysos</h6>
+                                <button type="button" class="btn btn-primary btn-sm"><i class="	fas fa-eye"></i> View</button>
+                                <button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-heart"></i> Favorite</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 justify-content-center" align= "center" style="border: solid #cdcdcd 1px;">
+                        <div >
+                            <a href="#">
+                                <img src="images/related/8711623884.jpg" alt="">
+                            </a>
+                            <div class="caption">
+                                <h6>Roman Agora</h6>
+                                <button type="button" class="btn btn-primary btn-sm"><i class="	fas fa-eye"></i> View</button>
+                                <button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-heart"></i> Favorite</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 justify-content-center" align= "center" style="border: solid #cdcdcd 1px;">
+                        <div >
+                            <a href="#">
+                                <img src="images/related/9498388516.jpg" alt="">
+                            </a>
+                            <div>
+                                <h6>Temple of Asclepius</h6>
+                                <button type="button" class="btn btn-primary btn-sm"><i class="	fas fa-eye"></i> View</button>
+                                <button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-heart"></i> Favorite</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="container-fluid padding" id="principalfooter">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Share Your Travels</h4>
+                    <p>This is a case study from the textbook <em>Fundamentals of Web Development</em>. This book is
+                        published by Pearson Ed, and is the only textbook that covers the essentials of the entire field
+                        of contemporary web development. </p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5>Headquarters</h5>
+                            Mount Royal University<br>
+                            4825 Mount Royal Gate SW<br>
+                            Calgary, Canada, T3E 6K6
+                        </div>
+                        <div class="col-md-6">
+                            <h5>Follow Us</h5>
+                            <button type="button" class="btn btn-secondary" id="camera">
+                                <i class="fas fa-camera"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" id="user">
+                                <i class="fas fa-user"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" id="tagsbutton">
+                                <i class="fas fa-tags"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" id="bookmark">
+                                <i class="fas fa-bookmark"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" id="fire">
+                                <i class="fas fa-fire"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+
+                    <h5><i class="fas fa-pen"></i> Recent Posts</h5>
+                    <div class="media">
+                        <a class="align-self-center mr-3" href="#">
+                            <img src="images/footer/6592294487.jpg" alt="...">
+                        </a>
+                        <div class="media-body">
+                            <p class="mb-0"><a href="#">Calgary in the Snow</a></p>
+                            <em>5 minutes ago</em>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="align-self-center mr-3"href="#">
+                            <img src="images/footer/6114904363.jpg" alt="...">
+                        </a>
+                        <div class="media-body">
+                            <p class="mb-0"><a href="#">Mountain Climbing</a></p>
+                            <em>11 minutes ago</em>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="align-self-center mr-3" href="#">
+                            <img src="images/footer/5856697109.jpg" alt="...">
+                        </a>
+                        <div class="media-body">
+                            <p class="mb-0"><a href="#">Nova Scotia</a></p>
+                            <em>23 minutes ago</em>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+
+                    <h5><i class="fas fa-envelope"></i> Contact us</h5>
+                    <form role="form">
+                        <div>
+                            <label class="sr-only" for="name">Name</label>
+                            <input type="text" name="email" placeholder="Enter name ...">
+                        </div>
+                        <div>
+                            <label class="sr-only" for="email">Email</label>
+                            <input type="email" name="email" placeholder="Enter email ...">
+                        </div>
+                        <div>
+                            <label class="sr-only" for="email">Email</label>
+                            <textarea rows="3" placeholder="Enter message ..."></textarea>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid padding" id="copyright">
+            <div class="col-12 text-center">
+                <p>Copyright &copy; 2017 Creative Commons ShareAlike</p>
+                <p><a href="#">Home</a> / <a href="#">About</a> / <a href="#">Contact</a> / <a href="#">Browse</a></p>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

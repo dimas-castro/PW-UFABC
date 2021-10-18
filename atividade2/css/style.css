@@ -1,0 +1,142 @@
+ .navbar {
+    padding: 1.5rem;
+}
+.navbar-nav {
+    padding-right: 20px;
+}
+.topHeaderRow {
+    background-color: #272e78;
+}
+.topHeaderRow a {
+    color: #ffffff;
+}
+.navbar-brand {
+    font-family: Lobster, sans-serif;
+    color: #ffffff;
+    font-size: 2.3em;
+    text-shadow: 1px 1px 5px #000;
+}
+.bg-azul {
+    background-color: #313f9b;
+}
+#navbarResponsive a {
+    color: #bac1e2;
+    font-family: sans-serif;
+}
+.d-flex button{
+    background-color: #f43b7c;
+    border: #f43b7c;
+    margin-left: 5px;
+}
+#navbarResponsive li {
+    margin-right: 30px;
+}
+main {
+    background-color: #e9ebf7;
+}
+footer {
+    background-color:#313f9b;
+    color: #ffffff;
+}
+#copyright {
+    background-color:  #272e78;
+}
+footer .btn-primary {
+    width: 100%;
+    background-color: #f43b7c;
+    border: #f43b7c;
+}
+.media img{
+    border-radius: 50%;
+}
+.media hr {
+    border-top: 2px solid #b4b4b4;
+}
+footer input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.col-md-8 img {
+    width: 100%;
+}
+.sidenav {
+    padding-top: 20px;
+}
+.sidenav ul {
+    background-color: white;
+    padding-left: 10px;
+}
+.lateraltitle {
+    background-color: #272e78;
+    color: white;
+    padding: 10px;
+}
+.row {
+    padding-top: 10px;
+}
+.card {
+    padding: 10px;
+}
+.badge {
+    font-size: 1em;
+    margin: 2px;
+}
+.border {
+    border-style: groove;
+    border-color:#313f9b;
+}
+.list-inline li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.badge-primary {
+    background-color: #313f9b;
+}
+.btn-group {
+    padding-top: 10px;
+}
+.btn-secondary {
+    background-color: #f43b7c;
+    border: #f43b7c;
+}
+#camera {
+    background-color: #f53b82;
+    width: 2.5em;
+    height: 2.5em;
+}
+#user{
+    background-color:#272e78;
+    width: 2.5em;
+    height: 2.5em;
+}
+#tagsbutton {
+    background-color:#2ea2d8;
+    width: 2.5em;
+    height: 2.5em;
+}
+#bookmark {
+    background-color: #c71965;
+    width: 2.5em;
+    height: 2.5em;
+}
+#fire {
+    background-color: #e51754;
+    width: 2.5em;
+    height: 2.5em;
+}
+main {
+    padding-bottom: 10px;
+}
+#copyright {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#principalfooter {
+    padding-bottom: 20px;
+}
+#relatedphotos img {
+    padding-top: 20px;
+}
+#relatedphotos button {
+    margin-bottom: 20px;
+}
