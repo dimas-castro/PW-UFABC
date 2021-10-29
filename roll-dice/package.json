@@ -1,0 +1,19 @@
+{
+  "name": "n-dice-simulator",
+  "version": "1.0.0",
+  "description": "A simple dice simulator",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Student",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pw-2021q1/atv03-typescript-dimas-castro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pw-2021q1/atv03-typescript-dimas-castro/issues"
+  },
+  "homepage": "https://github.com/pw-2021q1/atv03-typescript-dimas-castro#readme"
+}
